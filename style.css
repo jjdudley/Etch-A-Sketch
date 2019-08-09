@@ -5,7 +5,7 @@ body, html {
 }
 
 html {
-    
+    display: table;
     margin: auto;
 }
 
@@ -14,6 +14,9 @@ html {
 }
 
 body {
+    background-image: url('https://www.artsyhome.com/Products/966800845_0907151638__2_.jpg');
+    vertical-align: middle;
+    display: table-cell;
     vertical-align: middle;
 }
 .container {
@@ -36,10 +39,28 @@ body {
     background: white;
     float: left;
     border: 1px solid;
-    border-color:black;
+    border-color:rgb(219, 232, 238);
     
 }
 
 .hoverGridBox {
-    background-color: black;
+    background-color: rgb(153, 180, 190);
+}
+
+.resetButton {
+    padding: 8px;
+    color: white;
+    background: rgb(35, 52, 77);
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.resizeButton {
+    padding: 8px;
+    color: white;
+    background: rgb(35, 52, 77);
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
 }

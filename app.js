@@ -1,4 +1,4 @@
-let x = 16;
+let x = 50;
 let gridContainer = document.querySelector('#gridContainer');
 
 
@@ -16,7 +16,7 @@ function createGrid() {
             gridBoxes.style.height = `${600/x}px`;
 
             gridBoxes.addEventListener('mouseover', function (e) {
-                this.style.background = 'black';
+                this.style.background = 'rgb(153, 180, 190)';
             })
     };
 };
