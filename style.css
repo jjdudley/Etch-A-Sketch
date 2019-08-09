@@ -1,0 +1,45 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+html {
+    
+    margin: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    vertical-align: middle;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#gridContainer {
+    margin: 1em 0;
+    height: 600px;
+    width: 600px;
+    border-color: black;
+    margin: 1em 0;
+    padding: 0;
+   
+}
+
+.gridBox {
+    background: white;
+    float: left;
+    border: 1px solid;
+    border-color:black;
+    
+}
+
+.hoverGridBox {
+    background-color: black;
+}
