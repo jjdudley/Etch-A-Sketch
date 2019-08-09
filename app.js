@@ -1,4 +1,4 @@
-let x = 50;
+let x = 20;
 let gridContainer = document.querySelector('#gridContainer');
 
 
@@ -28,7 +28,7 @@ createGrid();
 let sketchControls = document.querySelector('#sketchControls');
 let resetButton = document.createElement('button');
 resetButton.classList.add('resetButton');
-resetButton.textContent = 'reset grid';
+resetButton.textContent = 'RESET';
 sketchControls.appendChild(resetButton);
 
 //reset button event
@@ -47,7 +47,7 @@ resetButton.addEventListener('click', function (e) {
 //Create resize button
 let resizeButton = document.createElement('button');
 resizeButton.classList.add('resizeButton');
-resizeButton.textContent = 'resize grid';
+resizeButton.textContent = 'RESIZE GRID';
 sketchControls.appendChild(resizeButton);
 
 //resize button event
