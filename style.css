@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
 }
 
 html {
@@ -15,16 +15,22 @@ html {
 }
 
 body {
-    background-image: url('https://www.artsyhome.com/Products/966800845_0907151638__2_.jpg');
+    background-color: rgb(105, 140, 153);
     vertical-align: middle;
     display: table-cell;
-    vertical-align: middle;
 }
 
-#page_title {
-    color: rgb(35, 52, 77);
+
+#page-title {
+    color: rgb(234, 243, 247);
+    font-size: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 16px;
     text-align: center;
     letter-spacing: 2px;
+    border: none;
+   
 }
 .container {
     max-width: 600px;
@@ -43,7 +49,7 @@ body {
 }
 
 .gridBox {
-    background: rgb(234, 243, 247);
+    background: rgb(153, 180, 190);
     float: left;
     border: 1px solid;
     border-color:rgb(241, 246, 248);
@@ -56,24 +62,40 @@ body {
 
 .resetButton {
     padding: 8px 22px;
-    color: rgb(168, 198, 206);
-    background: rgb(35, 52, 77);
-    border: none;
-    border-radius: 5px;
+    color: rgb(234, 243, 247);
+    background: rgb(153, 180, 190);
+    box-shadow: 1px 1px 1px 1px rgb(108, 127, 133);
+    border: 1px solid rgb(234, 243, 247);
     margin-right: 5px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 15px;
     letter-spacing: 2px;
     font-weight: bold;
 }
 
+.resetButton:hover {
+    background-color: rgb(227, 237, 241);
+    cursor: pointer;
+}
+
 .resizeButton {
     padding: 8px 22px;
-    color: rgb(168, 198, 206);
-    background: rgb(35, 52, 77);
-    border: none;
-    border-radius: 5px;
+    color: rgb(234, 243, 247);
+    background: rgb(153, 180, 190);
+    box-shadow: 1px 1px 1px 1px rgb(108, 127, 133);
+    border: 1px solid rgb(234, 243, 247);;
     margin-left: 5px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'VT323', monospace;
+    font-size: 15px;
     letter-spacing: 2px;
     font-weight: bold;
+}
+
+.resizeButton:hover {
+    background-color: rgb(227, 237, 241);
+    cursor: pointer;
+}
+
+:focus {
+    outline: none !important;
 }
